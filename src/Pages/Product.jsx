@@ -16,7 +16,7 @@ massDelete(deletes){
             method: "POST", 
             body: JSON.stringify(deletes)
           }).then(res=>res.text()).then(data=>{
-            window.location.reload(false);
+            window.location.href='/';
           })
     }
     Delete()
